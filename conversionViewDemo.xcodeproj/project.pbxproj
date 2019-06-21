@@ -15,6 +15,9 @@
 		1A15C75622B8E7B2005D2408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15C75522B8E7B2005D2408 /* main.m */; };
 		1A15C76022B8E7B3005D2408 /* conversionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15C75F22B8E7B3005D2408 /* conversionViewDemoTests.m */; };
 		1A15C76B22B8E7B3005D2408 /* conversionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A15C76A22B8E7B3005D2408 /* conversionViewDemoUITests.m */; };
+		1A7B717C22BA4AE000509FAF /* LINConversionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7B717B22BA4AE000509FAF /* LINConversionView.m */; };
+		1A7B717F22BA5E5B00509FAF /* image_btn_resize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7B717D22BA5E5B00509FAF /* image_btn_resize@2x.png */; };
+		1A7B718022BA5E5B00509FAF /* image_btn_rotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7B717E22BA5E5B00509FAF /* image_btn_rotate@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		1A15C76622B8E7B3005D2408 /* conversionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conversionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A15C76A22B8E7B3005D2408 /* conversionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = conversionViewDemoUITests.m; sourceTree = "<group>"; };
 		1A15C76C22B8E7B3005D2408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7B717A22BA4AE000509FAF /* LINConversionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LINConversionView.h; sourceTree = "<group>"; };
+		1A7B717B22BA4AE000509FAF /* LINConversionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LINConversionView.m; sourceTree = "<group>"; };
+		1A7B717D22BA5E5B00509FAF /* image_btn_resize@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_btn_resize@2x.png"; sourceTree = "<group>"; };
+		1A7B717E22BA5E5B00509FAF /* image_btn_rotate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_btn_rotate@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +112,15 @@
 				1A15C74722B8E7B0005D2408 /* AppDelegate.m */,
 				1A15C74922B8E7B0005D2408 /* ViewController.h */,
 				1A15C74A22B8E7B0005D2408 /* ViewController.m */,
+				1A7B717A22BA4AE000509FAF /* LINConversionView.h */,
+				1A7B717B22BA4AE000509FAF /* LINConversionView.m */,
 				1A15C74C22B8E7B0005D2408 /* Main.storyboard */,
 				1A15C74F22B8E7B2005D2408 /* Assets.xcassets */,
 				1A15C75122B8E7B2005D2408 /* LaunchScreen.storyboard */,
 				1A15C75422B8E7B2005D2408 /* Info.plist */,
 				1A15C75522B8E7B2005D2408 /* main.m */,
+				1A7B717D22BA5E5B00509FAF /* image_btn_resize@2x.png */,
+				1A7B717E22BA5E5B00509FAF /* image_btn_rotate@2x.png */,
 			);
 			path = conversionViewDemo;
 			sourceTree = "<group>";
@@ -237,7 +248,9 @@
 			files = (
 				1A15C75322B8E7B2005D2408 /* LaunchScreen.storyboard in Resources */,
 				1A15C75022B8E7B2005D2408 /* Assets.xcassets in Resources */,
+				1A7B718022BA5E5B00509FAF /* image_btn_rotate@2x.png in Resources */,
 				1A15C74E22B8E7B0005D2408 /* Main.storyboard in Resources */,
+				1A7B717F22BA5E5B00509FAF /* image_btn_resize@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +277,7 @@
 			files = (
 				1A15C74B22B8E7B0005D2408 /* ViewController.m in Sources */,
 				1A15C75622B8E7B2005D2408 /* main.m in Sources */,
+				1A7B717C22BA4AE000509FAF /* LINConversionView.m in Sources */,
 				1A15C74822B8E7B0005D2408 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
